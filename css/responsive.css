@@ -7,14 +7,6 @@
     font-size: 1.2rem;
   }
 
-  nav ul {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: block;
-  }
-
   .header-inner {
     flex-direction: column;
     text-align: center;
@@ -36,25 +28,8 @@
     height: auto;
   }
 
-  .changelog-item {
-    padding: 15px;
-  }
-
-  .changelog-title {
-    font-size: 1.6rem;
-  }
-
-  .changelog-description {
-    font-size: 1rem;
-  }
-
   .header-game img {
     max-width: 100%;
-  }
-
-  .nav-links {
-    background: rgba(49, 49, 49, 1) !important;
-    padding-right: 32px !important;
   }
 
   .brand-filters {
@@ -65,23 +40,8 @@
     margin-right: 0px !important;
   }
 
-  #changelog-list {
-    text-align: center !important;
-  }
-
-
   .game-preview-container {
     max-height: 150px !important;
-  }
-
-  #downloadBtn {
-    padding: 0;
-    background: none;
-    color: white;
-  }
-
-  #downloadBtn:hover {
-    background: none;
   }
 
   .user_feedbacks {
@@ -91,5 +51,4 @@
   .user_feedback {
     width: 100%;
   }
-
 }

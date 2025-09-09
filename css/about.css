@@ -14,64 +14,6 @@ h1 {
     font-size: 2rem;
 }
 
-.team-section {
-    width: 100%;
-    max-width: 1000px;
-    padding: 0 1rem;
-}
-
-.team-group {
-    margin-bottom: 3rem;
-    background: rgba(24,24,27,0.45);
-    -webkit-backdrop-filter: saturate(160%) blur(10px);
-    backdrop-filter: saturate(160%) blur(10px);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 1.25rem;
-}
-
-.team-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--md_accent_color);
-}
-
-.team-members {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.member-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 140px;
-    background: rgba(24,24,27,0.35);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 14px;
-    padding: 12px 10px 10px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-}
-
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid rgba(255,255,255,0.12);
-    object-fit: cover;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
-}
-
-.username {
-    margin-top: 0.5rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
 .goal-section {
     max-width: 600px;
     margin-top: 3rem;
@@ -87,14 +29,6 @@ h1 {
     padding: 1.25rem 1.5rem;
 }
 
-.header-section,
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .header-section {
     min-height: 50vh;
     background: rgba(24,24,27,0.35);
@@ -102,10 +36,4 @@ h1 {
     backdrop-filter: blur(8px);
     border-radius: 16px;
     padding: 1rem 1.25rem;
-}
-
-.position {
-    font-size: 0.95rem;
-    color: #666;
-    margin-top: 0.2rem;
 }
